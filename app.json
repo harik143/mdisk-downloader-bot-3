@@ -1,0 +1,23 @@
+{
+    "name": "Mdisk downloader bot",
+    "description": "A Telegram mdisk downloader Bot to byepass mdisk link by @annumitultrabots",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+      "repository": "https://github.com/amit4407/Mdisk-Downloader-Bot",
+    "website": "https://github.com/amit4407/Mdisk-Downloader-Bot",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
